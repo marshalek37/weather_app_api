@@ -53,22 +53,22 @@ const storedWeatherData = localStorage.getItem('weatherData');
           <h2 class="text-h2">Aktualna pogoda</h2>
 
           <p class="weather-data">
-            <img class="svg date" src="Pics/date.svg" alt="Logo" loading="eager">
+            <img class="svg date" src="Pics/date.svg" alt="Date svg" loading="eager">
             Data pomiaru: ${weatherData.date}
           </p>
 
           <p class="weather-data">
-            <img class="svg thermometer" src="Pics/thermometer.svg" alt="Logo" loading="eager">
+            <img class="svg thermometer" src="Pics/thermometer.svg" alt="Thermometer svg" loading="eager">
             Temperatura: ${weatherData.temperature}°C
           </p>
 
           <p class="weather-data">
-            <img class="svg droplet" src="Pics/water-drop.svg" alt="Logo" loading="eager">
+            <img class="svg droplet" src="Pics/water-drop.svg" alt="Drop svg" loading="eager">
             Suma opadów: ${weatherData.rainSum} mm
           </p>
 
           <p class="weather-data">
-            <img class="svg pressure" src="Pics/pressure.svg" alt="Logo" loading="eager">
+            <img class="svg pressure" src="Pics/pressure.svg" alt="Pressure svg" loading="eager">
             Ciśnienie: ${weatherData.pressure} hPa
           </p>
         </div>
