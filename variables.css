@@ -1,0 +1,12 @@
+:root {
+  
+  --border-function: 1px solid rgba(92, 92, 92, 0.18);
+  --background-function: rgba( 255, 255, 255, 0.25 );
+  --main-black: rgba(25, 25, 25, 0.853);
+  --text-white: rgb(218, 218, 218);
+
+  --font-size-large: 30px;
+  --font-size-large-phone: 24px;
+  --font-size-medium: 20px;
+  --font-size-small: 18px;
+}
