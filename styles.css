@@ -154,6 +154,10 @@ button:hover {
   line-height: 50px;
   min-height: 260px;
 
+  @media (min-width: 410px) {
+    min-width: 362px;
+  }
+
   @media (min-width: 660px) {
     font-size: var(--font-size-large);
     min-width: 500px;
