@@ -42,6 +42,7 @@ const storedWeatherData = localStorage.getItem('weatherData');
       temperature: weatherData.temperatura,
       rainSum: weatherData.suma_opadu,
       pressure: weatherData.cisnienie,
+      humidity: weatherData.wilgotnosc_wzgledna,
     };
     return formattedData;
   }
@@ -70,6 +71,11 @@ const storedWeatherData = localStorage.getItem('weatherData');
           <p class="weather-data">
             <img class="svg pressure" src="Pics/pressure.svg" alt="Pressure svg" loading="eager">
             Ciśnienie: ${weatherData.pressure} hPa
+          </p>
+
+          <p class="weather-data">
+            <img class="svg humidity" src="Pics/humidity.svg" alt="Humidity svg" loading="eager">
+            Wilgotność: ${weatherData.humidity} g/m³
           </p>
         </div>
       </div>
