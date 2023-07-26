@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "weather_app_api",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weather_app_api",
+		"liveServer.settings.port": 5501
+	}
+}
